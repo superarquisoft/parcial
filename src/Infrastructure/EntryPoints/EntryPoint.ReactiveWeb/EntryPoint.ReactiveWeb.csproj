@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Domain\Domain.Model\Domain.Models.csproj" />
+    <ProjectReference Include="..\..\..\Domain\Domain.UseCase\Domain.UseCases.csproj" />
+    <ProjectReference Include="..\..\Helpers\Helpers.Commons\Helpers.Commons.csproj" />
+  </ItemGroup>
+
+</Project>

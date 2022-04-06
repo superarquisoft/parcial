@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\DrivenAdapters\DrivenAdapter.Mongo\DrivenAdapter.Mongo.csproj" />
+    <ProjectReference Include="..\Domain.Model\Domain.Models.csproj" />
+  </ItemGroup>
+
+</Project>
